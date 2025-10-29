@@ -3,57 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <title>Exercise 7 — Spinach, Tofu & Sesame Stir-Fry</title>
+  <!-- Created by Cathy Yin on October 29, 2025 -->
   <!-- Recipe source: https://cooking.nytimes.com/recipes/1012494-spinach-tofu-and-sesame-stir-fry -->
 
-  <!-- Google Fonts (3 max) -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;700&family=Nunito:wght@600;700&display=swap" rel="stylesheet">
 
   <style>
-    /* Base */
+    
     html { font-size: 18px; background-color: #fffdf9; color: #1f2430; }
     body { margin: 0; font-family: "Inter", sans-serif; line-height: 1.6; }
 
-    /* Central wrapper (1200px wide) */
+    
     .page { width: 1200px; margin: 0 auto; padding: 24px 16px 40px; }
 
-    /* Card frame */
-    .recipe { background-color: #fff; border: 1px solid #e8e8ec; padding: 24px; border-radius: 12px; }
 
-    /* Header */
+  
     .recipe-header { padding-bottom: 12px; border-bottom: 1px solid #e8e8ec; margin-bottom: 20px; }
     h1 { font-family: "Playfair Display", serif; font-weight: 700; font-size: 2em; line-height: 1.15; margin: 0 0 8px; }
     .byline { font-family: "Nunito", sans-serif; color: #677085; margin: 0; }
 
-    /* --- GRID LAYOUT --- */
     .grid { 
       display: grid;
-      grid-template-columns: 34% 66%;  /* left column / right column */
+      grid-template-columns: 34% 66%; 
       column-gap: 24px;
       align-items: start;
     }
     .left { border-right: 1px solid #e8e8ec; padding-right: 20px; }
     .right { padding-left: 20px; }
 
-    /* Headings inside columns */
+ 
     h2 { font-family: "Nunito", sans-serif; font-size: 1.2em; color: #1a4b38; margin: 0 0 10px; }
     .label { font-family: "Nunito", sans-serif; text-transform: uppercase; font-size: 0.9em; color: #677085; letter-spacing: 1px; margin: 0 0 6px; }
 
-    /* Yield pill */
+    
     .yield { display: inline-block; background-color: #e7f3ed; color: #1a4b38; border: 1px solid #cfe7dc; padding: 5px 10px; border-radius: 999px; font-size: 0.9em; font-weight: 700; margin-bottom: 16px; }
 
-    /* Image (right column) */
+ 
     .recipe-image { display: block; width: 100%; height: auto; border: 1px solid #e8e8ec; border-radius: 10px; margin-bottom: 18px; }
 
-    /* Ingredients list */
+   
     .ingredients { list-style-type: disc; padding-left: 20px; margin: 0 0 20px; }
     .ingredients li { margin: 5px 0; }
 
-    /* Preparation text */
+  
     .prep h3 { font-family: "Nunito", sans-serif; font-weight: 700; font-size: 1.05em; margin: 14px 0 6px; }
     .prep p { margin: 0 0 14px; }
 
-    /* Tip box */
-    .tip { border: 1px dashed #d9e2ef; background-color: #fbfcfe; padding: 10px; font-size: 0.9em; color: #31425c; border-radius: 8px; }
+  
+    .tip { border: 1px dashed #d9e2ef; background-color: white; padding: 10px; font-size: 0.9em; color: #31425c; border-radius: 8px; }
   </style>
 </head>
 
@@ -66,7 +63,7 @@
       </div>
 
       <div class="grid">
-        <!-- LEFT COLUMN: Yield + Ingredients -->
+     
         <div class="left">
           <p class="label">Yield</p>
           <div class="yield">3 Servings</div>
@@ -85,9 +82,8 @@
           </ul>
         </div>
 
-        <!-- RIGHT COLUMN: Photo + Preparation -->
         <div class="right">
-          <img src="tofu.jpg" alt="Plate of spinach, tofu, and sesame stir-fry" class="recipe-image">
+          <img src="t.jpg" alt="Plate of spinach, tofu, and sesame stir-fry" class="recipe-image">
 
           <div class="prep">
             <h2>Preparation</h2>
@@ -102,8 +98,8 @@
             <p class="tip">Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.</p>
           </div>
         </div>
-      </div> <!-- /.grid -->
-    </div>   <!-- /.recipe -->
-  </div>     <!-- /.page -->
+      </div> 
+    </div>  
+  </div>     
 </body>
 </html>
